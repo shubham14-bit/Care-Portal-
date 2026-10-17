@@ -1,0 +1,24 @@
+{
+  "name": "careportal-workspace",
+  "version": "1.0.0",
+  "description": "CarePortal (Accessible Health Records App) Full Application",
+  "type": "module",
+  "scripts": {
+    "start": "node start-dev.js",
+    "dev": "node start-dev.js",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "start:backend": "node backend/src/server.js",
+    "dev:backend": "node --watch backend/src/server.js",
+    "test:backend": "node --test backend/test/api.test.js",
+    "test": "node --test backend/test/api.test.js"
+  },
+  "keywords": [
+    "careportal",
+    "healthcare",
+    "stitch",
+    "botanical-sanctuary"
+  ],
+  "author": "CarePortal Team",
+  "license": "MIT"
+}

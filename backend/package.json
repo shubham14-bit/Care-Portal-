@@ -1,0 +1,27 @@
+{
+  "name": "careportal-backend",
+  "version": "1.0.0",
+  "description": "CarePortal (Accessible Health Records App) REST API Backend",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/db/seed.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "careportal",
+    "healthcare",
+    "ehr",
+    "bulbacare",
+    "botanical-sanctuary"
+  ],
+  "author": "CarePortal Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
